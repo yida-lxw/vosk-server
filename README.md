@@ -22,7 +22,7 @@ python asr_server.py E:/git_workspace/vosk_test/src/main/resources/vosk-model-cn
 python asr_server.py /etc/data/soft/qc_speech/vosk-model-cn-0.22/ 10.180.81.101 10040 8000 gpu
 ~~~
 > 5个参数依次说明: <br/>
-模型的硬盘绝对路径, 必填项 <br/>
+模型的硬盘绝对路径, 必填项 , 模型下载地址:https://alphacephei.com/vosk/models <br/>
 vosk-server所在主机ip或域名, 不填默认值为0.0.0.0 <br/>
 vosk-server启动端口, 不填默认值为2700 <br/>
 音频文件的采样率,不填默认值为8000 <br/>
