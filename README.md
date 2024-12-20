@@ -19,7 +19,6 @@ python asr_server.py {模型的磁盘绝对路径} <br/>
 示例:
 ~~~Shell
 python asr_server.py E:/git_workspace/vosk_test/src/main/resources/vosk-model-cn-0.22/ 127.0.0.1 2700 8000 gpu
-python asr_server.py /etc/data/soft/qc_speech/vosk-model-cn-0.22/ 10.180.81.101 10040 8000 gpu
 ~~~
 > 5个参数依次说明: <br/>
 模型的硬盘绝对路径, 必填项 , 模型下载地址:https://alphacephei.com/vosk/models <br/>
