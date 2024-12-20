@@ -1,0 +1,4 @@
+vosk==0.3.50
+websockets>=11.0
+sounddevice==0.5.1
+
