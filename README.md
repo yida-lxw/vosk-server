@@ -5,8 +5,8 @@
 ## 环境要求
 Python 3.8+
 ~~~shell
-conda create --name py311 python=3.11
-conda activate py311
+conda create --name vosk-server38 python=3.8
+conda activate vosk-server38
 # 切换到vosk-server源码根目录下
 cd vosk-server
 ~~~
@@ -15,6 +15,7 @@ cd vosk-server
 pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple/
 
 ## 运行说明
+cd websokcet
 python asr_server.py {模型的磁盘绝对路径} <br/>
 示例:
 ~~~Shell
